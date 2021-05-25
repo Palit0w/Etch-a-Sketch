@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+  line-height: 1.6;
+}
+
+header {
+  margin-top: 1rem;
+  padding: 2rem;
+  font-size: 3rem;
+}
+
+h1 {
+  line-height: 1.2;
+  color: #222;
+}
+
+body {
+  background-color: #999;
+  text-align: center;
+}
+
+.container {
+  padding: 1rem;
+}
+
+.grid {
+  display: grid;
+  max-width: 450px;
+  min-height: 450px;
+  margin: 2rem auto;
+  border: 2px solid #333;
+  padding: 0px; 
+  background-color: #fff;
+}
+
+.grid-element {
+  border-top: 1px solid #333;
+  border-left: 1px solid #333;
+}
+
+.button {
+  color: #eee;
+  background-color: #555;
+  border: 2px solid #222;
+  border-radius: 6px;
+  padding: 1rem;
+  margin: 1rem;
+  font-family: inherit;
+  font-size: 1.8rem;
+}
+
+.button:hover {
+  background-color: #333;
+}
